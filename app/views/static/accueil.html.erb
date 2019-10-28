@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Bienvenue sur la page d'accueil !</h1>
+    <h2>Voici la liste des potins actuels :</h2>
+    <% @gossips.each do |gossip| %>
+    <a href = <%= "/the_gossip_project/gossip/" + gossip.id.to_s %> > <%= "Gossip n°" + gossip.id.to_s %></a>
+        <p><%= gossip.title %></p>
+        <p><%= gossip.user.first_name %></p>
+    <% end %>
+  </body>
+</html>
+

@@ -1,24 +1,9 @@
-# README
+## Projet Gossip - Rails intermédiaire
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bonjour chèr(e) correcteur(trice),
 
-Things you may want to cover:
+Il faut lancer le shotgun -p 3000 dans le terminal puis aller à :
+http://localhost:3000/the_gossip_project/accueil sur ton navigateur pour démarrer le projet.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bonne correction,
+Antoine
